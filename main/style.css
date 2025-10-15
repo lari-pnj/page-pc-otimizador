@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@layer base, demo;
+@import url(https://fonts.bunny.net/css?family=abel:400);
 
 *{
     padding: 0px;
@@ -71,4 +73,60 @@ header .logo{
     display: inline-block;
 
 }
+  
+.cards{
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.quadrado{
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+.quadrado h1{
+    font-family:'poppins';
+    font-size: smaller;
+    font-weight: 200;
+}
+.info-sobre{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    max-width: 800px;
+    border-radius: 12px;
+    padding: 20px;
+    color:rgb(255, 255, 255);
+    border: 20px;
+    background-color: rgba(192, 102, 18, 0.712);
+}
+#sobre h1 p{
+    justify-content: center;
+    align-items: center;
+}
+.sobre-imgs img{
+    display:flexbox;
+}
+.img{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.print{
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.img h1 p{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
 
